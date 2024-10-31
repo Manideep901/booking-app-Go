@@ -26,7 +26,7 @@ func main() {
 	log.Print("Enter number of tickets: ");
 	fmt.Scan(&userTickets);
 	remainingTickets -= userTickets;
-	booking = append(booking, firstName + " "+lastName)
+	booking = append(booking, firstName + " "+lastName);
 	log.Printf("Thank you %v %v for booking %v tickets. You will receive a confirmation email at %v\n",firstName,lastName,userTickets,email);
 	log.Printf("%v tickets remaining for %v\n",remainingTickets,conferenaceTickets);
 }
